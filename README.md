@@ -16,7 +16,7 @@
 
     $ ruby myscript.rb   # must include .rb extension to run a script
 
-Docs are at [http://ruby-doc.org/core](http://ruby-doc.org/core)
+Docs are at <a href="http://ruby-doc.org/core" target="_blank">http://ruby-doc.org/core</a>
 
 Also docs avail from command line just type `ri` before a command
 

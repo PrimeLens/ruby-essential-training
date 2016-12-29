@@ -67,6 +67,7 @@
     # .each
     (1..5).each { |i| puts "hello"+i.to_s}
     ['apple', 'banana', 'cherry', 'date'].each { |fruit| puts fruit }
+    h.each {|key, value| puts "#{key} is #{value}" }    # for hash
     # NOTE that break, next, redo and retry all work within this loop
 
 # FOR 
@@ -75,8 +76,10 @@
     end
     # but the following syntax below will FAIL!   why?  I have no idea
     for fruit in ['apple', 'banana', 'cherry', 'date'] { puts fruit }
-    # I asked on stack
+    # I asked on stack and answer is here
     # http://stackoverflow.com/questions/41373454/ruby-for-in-loop-error-with-block-delimiter
+
+
 
 # SUMMARY on iterator methods
 =begin

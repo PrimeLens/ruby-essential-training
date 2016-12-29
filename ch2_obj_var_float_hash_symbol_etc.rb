@@ -1,6 +1,6 @@
 # Everything is an object (just like javascript)
 
-# VARS
+# VARIABLES
 # must use lowercase words with underscores 
 # (because if first letter is CAPS then it makes it a constant not a var)
 # no need for 'var' at the front, no camelCase, no hypehens, no semicolons
@@ -9,14 +9,15 @@
     student_array
     first_var = 10
 
+# variables names determine the scope of the variable
+    student         # block level scope
+    student         # local level scope
+    @student        # instance level scope
+    @@student       # class level scope
+    $env            # global
 
-# variables are scoped to Global, Class, Instance, Local, Block
 
-# Global $variable
-# Class @@variable
-# Instance @variable
-# Local variable
-# Block variable
+
 
 # OPERATORS (are pretty standard +,-,/,*, +=, +-)
     4 ** 2 # ==> 16  how we write exponential 
