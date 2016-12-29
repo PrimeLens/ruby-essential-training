@@ -1,6 +1,6 @@
 # Everything is an object (just like javascript)
 
-# Vars
+# VARS
 # must use lowercase words with underscores 
 # (because if first letter is CAPS then it makes it a constant not a var)
 # no need for 'var' at the front, no camelCase, no hypehens, no semicolons
@@ -18,18 +18,17 @@
 # Local variable
 # Block variable
 
-# Operators (are pretty standard +,-,/,*, +=, +-)
+# OPERATORS (are pretty standard +,-,/,*, +=, +-)
     4 ** 2 # ==> 16  how we write exponential 
 
-# Integers are either Fixnum or Bignum, ruby switched back and forth as needed 
+# INTEGERS are either Fixnum or Bignum, ruby switched back and forth as needed 
     1234.class # => Fixnum
     123456789123456789.class #=> Bignum
     200.next # => 201
-
 # IMPORTANT
     10 / 3 # => 3  it truncates because neither operand is a float
 
-# Floats have methods
+# FLOATS have methods
     1234.567.class # => Float
     10.0.class # => Float even though its .0 aka integer
     1234.567.round # => 1235 rounds up and this result is a Fixnum
@@ -37,7 +36,7 @@
     1234.567.floor
     1234.567.ceil
 
-# Strings
+# STRINGS
     "hello" + ' world'  # both quotes are fine but single quote treats backslash as literal backslash
     "\n"                # => newline
     '\n'                # => \n   
@@ -50,7 +49,7 @@
     "attack".reverse 
     "attack".length
 
-# Arrays (same as javascript except for)
+# ARRAYS 
     data_set = ["a", "b", "c"]
     data_set << "f"     # will append f
     data_set.inspect    # returns a human readable string but not JSON
@@ -67,7 +66,7 @@
     data_set.unshift('start')
     [1,2,3] + [4,5,6]   # => [1,2,3,4,5,6]    can use + - * /
 
-# Hashes are basically the same as an Object in javascript, key value pairs
+# HASHES, key value pairs, aka object
     hero = { "first_name" => "Rick", "last_name" => "Deckard" }
     hero["gender"] = "M"    
     hero.index("Rick")  # will return the key for that value # => "first_name"
@@ -79,11 +78,12 @@
     hero.to_a   # converts to array of arrays [ ["key" => "value"], ["key" => "value"] ]
     # NOTE no dot syntax
 
-# Symbols
+# SYMBOLS
     :test   # this is like setting a constant label, it will always use the same piece of memory
             # useful for keys in a hash
+            # think of it like a permanent pointer
 
-# Booleans and logic operatos
+# BOOLEAN and logic operatos
     # logic operators   ==  <   >   <=  >=  !   !=  &&  ||
     # methods that return boolean
     x = nill
@@ -96,7 +96,7 @@
     {"a" => 1}.has_key?("a")    # => true
     {"a" => 1}.has_value?(3)    # => false
 
-# Incluseive Range and Exclusvie Range
+# RANGE   Incluseive Range and Exclusvie Range
     x = 1..10           # range 1 to 10 includeing 1 and 10
     y = 1...10          # does not include 10
     x.last              # 10
@@ -112,7 +112,7 @@
     str.include?("d")   # true
     [*str]              # ["a", "b", "c", "d", "e"]
 
-# Constants
+# CONSTANTS
     MYCONSTANT = 10     # ruby tends to have constants all in caps
     Myconstant = 10     # but even the first letter is enough to make it a constant
                         # can be reassigned but ruby will kick a warning
