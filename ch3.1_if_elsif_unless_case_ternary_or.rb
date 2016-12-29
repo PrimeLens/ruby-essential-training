@@ -17,9 +17,9 @@
     else
         puts "10-20"
     end
-    # in one line FAIL you cannot remove the newlines like the example bleow
+    # in one line, below syntax is a FAIL, you cannot remove the newlines like the example below
     if x < 10 puts "Below 10" elsif x > 10 puts "Over 20" else puts "10-20" end
-    # in one line CORRECT FORMAT BELOW
+    # in one line CORRECT FORMAT is below
     puts "Below 10" if x < 10
     if x < 10 puts "Below 10" elsif x > 10 puts "Over 20" else puts "10-20" end
 
