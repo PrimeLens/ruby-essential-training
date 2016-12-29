@@ -1,27 +1,27 @@
 # IF
     # if then
-        if x < 10
-            puts "Below 10"
-        end 
+    if x < 10
+        puts "Below 10"
+    end 
     # if else
-        if x < 10
-            puts "Below 10"
-        else
-            puts "10 or more"
-        end
+    if x < 10
+        puts "Below 10"
+    else
+        puts "10 or more"
+    end
     # if elsif else
-        if x < 10
-            puts "Below 10"
-        elsif x > 20         # yes its spelt this way! 
-            puts "Over 20"
-        else
-            puts "10-20"
-        end
+    if x < 10
+        puts "Below 10"
+    elsif x > 20         # yes its spelt this way! 
+        puts "Over 20"
+    else
+        puts "10-20"
+    end
     # in one line FAIL you cannot remove the newlines like the example bleow
-        if x < 10 puts "Below 10" elsif x > 10 puts "Over 20" else puts "10-20" end
+    if x < 10 puts "Below 10" elsif x > 10 puts "Over 20" else puts "10-20" end
     # in one line CORRECT FORMAT BELOW
-        puts "Below 10" if x < 10
-        if x < 10 puts "Below 10" elsif x > 10 puts "Over 20" else puts "10-20" end
+    puts "Below 10" if x < 10
+    if x < 10 puts "Below 10" elsif x > 10 puts "Over 20" else puts "10-20" end
 
 
 
