@@ -2,7 +2,11 @@
 <br/>
 #### My notes taken during course from kevin skoglund, lynda.com
 
-    # this is a comment
+    # this is a single line comment
+	=begin
+		this is a multi line comment
+		IMPORTANT!  the = must be the first character on the line
+	=end
 
     $ irb                # start interpreter on command line
     $ irb --simple-prompt
@@ -24,8 +28,18 @@ Chapter 2 Lessons 1..12<br/>
 [ch2\_obj\_var\_float\_hash\_symbol\_etc.rb](./ch2_obj_var_float_hash_symbol_etc.rb)
 
 <br/>
-Chapter 3 Lessons 1 and 2<br/>
+Chapter 3 Lessons 1, 2<br/>
 **if, elsif, unless, case, ternary, or, or-equals**<br/>
 [ch3.1\_if\_elsif\_unless\_case\_ternary\_or.rb](./ch3.1_if_elsif_unless_case_ternary_or.rb)
+
+<br/>
+Chapter 3 Lessons 3, 4<br/>
+**loop, while, until, upto, each, for, in**<br/>
+[ch3.2\_loop\_while\_until\_times\_upto\_each\_for\_in.rb](./ch3.2_loop_while_until_times_upto_each_for_in.rb)
+
+
+
+
+
 
 
