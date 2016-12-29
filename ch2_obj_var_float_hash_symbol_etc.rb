@@ -1,7 +1,8 @@
 # Everything is an object (just like javascript)
 
 # Vars
-# _must use lowercase words_ with underscores (because to use CAPS makes it a constant not a var)
+# must use lowercase words with underscores 
+# (because if first letter is CAPS then it makes it a constant not a var)
 # no need for 'var' at the front, no camelCase, no hypehens, no semicolons
     first_var
     activity_counter
@@ -112,5 +113,7 @@
     [*str]              # ["a", "b", "c", "d", "e"]
 
 # Constants
-    
-
+    MYCONSTANT = 10     # ruby tends to have constants all in caps
+    Myconstant = 10     # but even the first letter is enough to make it a constant
+                        # can be reassigned but ruby will kick a warning
+                         
