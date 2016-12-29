@@ -1,6 +1,6 @@
 # ruby-essential-training
-
-my notes taken during course from kevin skoglund, lynda.com
+<br/>
+####My notes taken during course from kevin skoglund, lynda.com
 
     # this is a comment
 
