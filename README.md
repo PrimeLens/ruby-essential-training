@@ -37,6 +37,15 @@ Chapter 3 Lessons 3, 4<br/>
 **loop, while, until, upto, each, for, in**<br/>
 [ch3.2\_loop\_while\_until\_times\_upto\_each\_for\_in.rb](./ch3.2_loop_while_until_times_upto_each_for_in.rb)
 
+<br/>
+Chapter 4 Lessons 1<br/>
+**code block uses local variable instead of block scope variable in older versions of ruby**<br/>
+[ch4.1\_code\_block\_scope\_ruby\_1.9.1.rb](./ch4.1_code_block_scope_ruby_1.9.1.rb)
+
+<br/>
+Chapter 4 Lessons 2<br/>
+**.find .include .find\_all .any? .all? delete\_if**<br/>
+[ch4.2\_find\_include\_any\_all\_delete\_if.rb](./ch4.2_find_include_any_all_delete_if.rb)
 
 
 
