@@ -1,4 +1,4 @@
-# LOOP {} or LOOP DO END
+# loop {} or loop do end
     # break if => means terminate loop
     # next if means jump to next iteration
     # redo means start this iteration again
@@ -10,7 +10,7 @@
         next if x == 6        # skips printing 6
         puts x
     end 
-    # can also swap DO END for { } block delimiters
+    # can also swap do end for { } block delimiters
     x = 0 
     loop {
         x += 2
@@ -22,31 +22,41 @@
 
 
 
-# WHILE loop
+# while 
     x = 0
     while x < 20            # stops after printing 18
         x += 2
         next if x == 6        # skips printing 6 
         puts x
     end
-# WHILE loop as inline syntax
+# while as inline syntax
     x = 0
     puts x += 2 while x < 20
 
 
 
-# UNTIL loop
+# until loop
     x = 0
     until x == 20
         x += 2
         puts x        
     end
-# UNTIL loop as inline syntax
+# until as inline syntax
     x = 0
     puts x += 2 until x == 20
 
 
-# ITERATOR METHODS
+# for 
+    for fruit in ['apple', 'banana', 'cherry', 'date'] do
+        puts fruit 
+    end
+    # but the following syntax below will FAIL!   why?  I have no idea
+    for fruit in ['apple', 'banana', 'cherry', 'date'] { puts fruit }
+    # I asked on stack and answer is here
+    # http://stackoverflow.com/questions/41373454/ruby-for-in-loop-error-with-block-delimiter
+
+
+# iterator methods
     # .times
     5.times do
         puts "hello"
@@ -63,22 +73,12 @@
     5.downto(1) { |i| puts "hello"+i.to_s}
 
 
-# EACH iterator method
+# .each iterator method
     # .each
     (1..5).each { |i| puts "hello"+i.to_s}
     ['apple', 'banana', 'cherry', 'date'].each { |fruit| puts fruit }
     h.each {|key, value| puts "#{key} is #{value}" }    # for hash
     # NOTE that break, next, redo and retry all work within this loop
-
-# FOR 
-    for fruit in ['apple', 'banana', 'cherry', 'date'] do
-        puts fruit 
-    end
-    # but the following syntax below will FAIL!   why?  I have no idea
-    for fruit in ['apple', 'banana', 'cherry', 'date'] { puts fruit }
-    # I asked on stack and answer is here
-    # http://stackoverflow.com/questions/41373454/ruby-for-in-loop-error-with-block-delimiter
-
 
 
 # SUMMARY on iterator methods

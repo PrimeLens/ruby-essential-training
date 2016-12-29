@@ -1,4 +1,4 @@
-# IF
+# if
     # if then
     if x < 10
         puts "Below 10"
@@ -25,7 +25,8 @@
 
 
 
-# UNLESS ... kind of useless, I would rather see developers use the ! 
+# unless 
+    # is kind of useless, I would rather see developers use the ! 
     unless x < 10
         puts "10 or more"
     end 
@@ -35,7 +36,8 @@
     end 
 
 
-# CASE aka switch
+# case 
+    # aka switch
     case            # this is actually case true    
     when x < 10
         puts "Below 10"
@@ -55,14 +57,15 @@
     end
     
 
-# TERNARY
+# ternary
     str = x < 10 ? "Below 10" : "10 or more"
 
-# OR  in an assignment instead of being used as a logical operator
+# or  
+    # used in an assignment instead of being used as a logical operator
     # like a ternary but tests for existance of the variable
     x = y || z   # means that if y doesn't exist x = z 
 
-# OR-EQUALS 
+# or-equals
     if !x
         x = y
     end
