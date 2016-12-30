@@ -38,7 +38,8 @@ Also docs avail from command line just type `ri` before a command
 **.find .include .find\_all .any? .all? delete\_if**<br/>
 [ch4.2\_find\_include\_any\_all\_delete\_if.rb](./ch4.2_find_include_any_all_delete_if.rb)
 
-
+**.merge for merging hashes**<br/>
+[ch4.3\_hash.merge.rb](./ch4.3_hash.merge.rb)
 
 
 
