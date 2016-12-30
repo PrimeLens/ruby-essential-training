@@ -43,6 +43,7 @@
     '\n'                # => \n   
     "gabba" * 5 # => "gabbagabbagabbagabbagabba"
     "You have #{counter} items"     # double quotes acts as string template
+                                    # note that counter wil convert to a string if its a number
 
     "attack".capitalize     # upcase the first letter only
     "attack".upcase
