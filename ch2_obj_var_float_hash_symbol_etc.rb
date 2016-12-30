@@ -56,7 +56,7 @@
     data_set << "f"     # will append f
     data_set.inspect    # returns a human readable string but not JSON
     data_set.join(',')  # makes string with comma separators
-    .split(',')         # convert string to array
+    "1,2,3".split(',')         # convert string to array
     [3,2,1,2,3].sort        # returns sorted => [1, 2, 2, 3, 3]
     [3,2,1,2,3].uniq        # returns array of uniq  => [3, 2, 1]
     [3,2,1,2,3].uniq!       # original is altered and returned
@@ -88,9 +88,9 @@
 # BOOLEAN and logic operatos
     # logic operators   ==  <   >   <=  >=  !   !=  &&  ||
     # methods that return boolean
-    x = nill
+    x == nill
     x.nil?                      # => true
-    x = 2
+    x == 2
     x.between?(0,5)             # => true
     [1,2,3].empty?              # => false
     [].empty?                   # => true
