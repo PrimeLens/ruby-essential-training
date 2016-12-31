@@ -3,10 +3,16 @@
 #### My notes taken during course from kevin skoglund, lynda.com
 
     # this is a single line comment
-	=begin
-		this is a multi line comment
-		IMPORTANT!  the = must be the first character on the line
-	=end
+    
+    =begin
+      this is a multi line comment
+      IMPORTANT!!! the = must be the first character on the line
+    =end
+
+    # ruby devs prefer TWO space indentation not four, this is kinda important to the community
+
+
+On the command line    
 
     $ irb                # start interpreter on command line
     $ irb --simple-prompt
@@ -20,9 +26,7 @@ Docs are at <a href="http://ruby-doc.org/core" target="_blank">http://ruby-doc.o
 
 Also docs avail from command line just type `ri` before a command
 
-    $ ri upcase			# spits out docs for upcase same as at the link above 
-
-... and finally I just found out ruby devs all prefer _two_ space indentation not four
+    $ ri upcase     # spits out docs for upcase same as at the link above 
 
 <br/>
 **objects, vars, ints, floats, strings, string templates, arrays, hashes, symbols, booleans, logic operators, ranges, constants**<br/>
