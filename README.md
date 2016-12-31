@@ -22,6 +22,8 @@ Also docs avail from command line just type `ri` before a command
 
     $ ri upcase			# spits out docs for upcase same as at the link above 
 
+... and finally I just found out ruby devs all prefer _two_ space indentation not four
+
 <br/>
 **objects, vars, ints, floats, strings, string templates, arrays, hashes, symbols, booleans, logic operators, ranges, constants**<br/>
 [ch2\_obj\_var\_float\_hash\_symbol\_etc.rb](./ch2_obj_var_float_hash_symbol_etc.rb)
