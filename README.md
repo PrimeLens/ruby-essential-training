@@ -50,9 +50,8 @@ Also docs avail from command line just type `ri` before a command
 **comparison operator and .sort**<br/>
 [ch4.4\_comparison\_operator\_sort.rb](./ch4.4_comparison_operator_sort.rb)
 
-
-
-
+**inject memo**<br/>
+[ch4.5\_inject\_memo.rb](./ch4.5_inject_memo.rb)
 
 
 
