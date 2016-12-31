@@ -43,6 +43,12 @@ Also docs avail from command line just type `ri` before a command
 **.merge .collect**<br/>
 [ch4.3\_merge\_collect.rb](./ch4.3_merge_collect.rb)
 
+**comparison operator and .sort**<br/>
+[ch4.4\_comparison\_operator\_sort.rb](./ch4.4_comparison_operator_sort.rb)
+
+
+
+
 
 
 
