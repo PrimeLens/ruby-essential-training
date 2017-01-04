@@ -53,5 +53,8 @@ Also docs avail from command line just type `ri` before a command
 **.inject and memo**<br/>
 [ch4.5\_inject\_memo.rb](./ch4.5_inject_memo.rb)
 
+**methods aka functions**<br/>
+[ch5\_methods\_aka\_functions\_require\_args\_return.rb](./ch5_methods_aka_functions_require_args_return.rb)
+
 
 
