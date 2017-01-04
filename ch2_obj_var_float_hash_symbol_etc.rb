@@ -79,7 +79,10 @@
   hero.size                 # same as length
   hero.to_a                 # converts to array of arrays 
                             # [ ["key" => "value"], ["key" => "value"] ]
-  # NOTE no dot syntax
+  # NOTE : no dot syntax when adding properties
+    hero.age = 33           # will ERROR
+    hero['age'] = 33        # correct way
+
 
 # SYMBOLS
   :test   
