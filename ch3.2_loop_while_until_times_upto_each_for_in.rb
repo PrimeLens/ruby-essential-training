@@ -53,7 +53,7 @@
   # but the following syntax below will FAIL!   why?  I have no idea
   for fruit in ['apple', 'banana', 'cherry', 'date'] { puts fruit }
   # I asked on stack and answer is here
-  # http://stackoverflow.com/questions/41373454/ruby-for-in-loop-error-with-block-delimiter
+  # ---> http://stackoverflow.com/questions/41373454/ruby-for-in-loop-error-with-block-delimiter
 
 
 # iterator methods
