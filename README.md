@@ -71,12 +71,12 @@ _• Added additional research, code block as a transformer for the method_
 **classes, instance scoped vars, attr, initialize method**<br/>
 [ch6.1\_classes\_attr\_instance\_vars\_initialize.rb](./ch6.1_classes_attr_instance_vars_initialize.rb)<br/>
 _• Additional research, how do we set a private method when all methods are public by default?_<br/>
-_• Stackoverflow thread explaing confusing part of the turoial where the method is named 'noise='_
+_• Stackoverflow thread explaining confusing part of the turoial where the method is named 'noise='_
 
 <br/>
 **class methods, example factory, class scoped vars, class scoped reader and writer**<br/>
 [ch6.2\_class\_method\_and\_class\_scope\_reader\_writer.rb](./ch6.2_class_method_and_class_scope_reader_writer.rb)<br/>
-_• Additional research needed on keyword self. when used inside the initialize method, is it pointing to the instance not the class?_
+_• TO DO: Additional research needed on keyword self. when used inside the initialize method, is it pointing to the instance not the class?_
 
 
 
