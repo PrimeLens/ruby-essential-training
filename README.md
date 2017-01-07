@@ -41,20 +41,29 @@ Also docs avail from command line just type `ri` before a command
 **code block uses local variable instead of block scope variable in older versions of ruby**<br/>
 [ch4.1\_code\_block\_scope\_ruby\_1.9.1.rb](./ch4.1_code_block_scope_ruby_1.9.1.rb)
 
-**.find .include .find\_all .any? .all? delete\_if**<br/>
+**find, include, find\_all, any?, all?, delete\_if**<br/>
 [ch4.2\_find\_include\_any\_all\_delete\_if.rb](./ch4.2_find_include_any_all_delete_if.rb)
 
-**.merge .collect**<br/>
+**merge and collect**<br/>
 [ch4.3\_merge\_collect.rb](./ch4.3_merge_collect.rb)
 
-**comparison operator and .sort**<br/>
+**comparison operator and sort**<br/>
 [ch4.4\_comparison\_operator\_sort.rb](./ch4.4_comparison_operator_sort.rb)
 
-**.inject and memo**<br/>
+**inject and memo**<br/>
 [ch4.5\_inject\_memo.rb](./ch4.5_inject_memo.rb)
 
 **methods aka functions**<br/>
 [ch5\_methods\_aka\_functions\_require\_args\_return.rb](./ch5_methods_aka_functions_require_args_return.rb)
+
+
+**classes, instance scoped vars, attr, initialize method**<br/>
+[ch6.1\_classes\_attr\_instance\_vars\_initialize.rb](./ch6.1_classes_attr_instance_vars_initialize.rb)
+
+
+**class methods, example factory, class scoped vars, class scoped reader and writer**<br/>
+[ch6.2\_class\_method\_and\_class\_scope\_reader\_writer.rb](./ch6.2_class_method_and_class_scope_reader_writer.rb)
+
 
 
 
