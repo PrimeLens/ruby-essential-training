@@ -16,7 +16,7 @@
   class Animal
     attr_accessor :legs, :arms, :color
     def initialize(legs=0, arms=0, color="black")
-      @name = color
+      @color = color
       @legs = legs
       @arms = arms
     end
