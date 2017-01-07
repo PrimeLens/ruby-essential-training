@@ -50,7 +50,7 @@
   p Animal.species
 
 
-# SPECIAL NOTE
+# SPECIAL NOTE, additional research needed
   # I believe that the key word self when used in the class always refers to the Class
   # not the instance EXCEPT when it is used inside the initialize method
   # this could be useful for keeping track of the number of instances

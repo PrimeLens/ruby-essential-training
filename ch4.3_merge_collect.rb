@@ -32,7 +32,7 @@
 
   new_array = [1, 2, 3].collect { |e| e + 1 if e == 2 }           # [nil, 3, nil]
   # why the nil?
-  # because there is not else
+  # because there is no else
 
 # collect as a method of a range
   (1..3).collect { |e| e + 1 }                                    # [2, 3, 4]
