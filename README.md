@@ -78,5 +78,10 @@ _• Stackoverflow thread explaining confusing part of the turoial where the met
 [ch6.2\_class\_method\_and\_class\_scope\_reader\_writer.rb](./ch6.2_class_method_and_class_scope_reader_writer.rb)<br/>
 _• TO DO: Additional research needed on keyword self. when used inside the initialize method, is it pointing to the instance not the class?_
 
+<br/>
+**inheritance, subclass superclass, overriding methods, calling super**<br/>
+[ch6.3\_inheritance\_subclass\_superclass\_override\_super.rb](./ch6.3_inheritance_subclass_superclass_override_super.rb)<br/>
+
+
 
 
