@@ -82,6 +82,9 @@ _• TO DO: Additional research needed on keyword self. when used inside the ini
 **inheritance, subclass superclass, overriding methods, calling super**<br/>
 [ch6.3\_inheritance\_subclass\_superclass\_override\_super.rb](./ch6.3_inheritance_subclass_superclass_override_super.rb)<br/>
 
+<br/>
+**modules, namespacing, require and include**<br/>
+[ch7\_modules\_namespacing\_require\_include.rb](./ch7_modules_namespacing_require_include.rb)<br/>
 
 
 
