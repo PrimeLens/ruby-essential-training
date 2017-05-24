@@ -28,7 +28,7 @@ Also docs avail from command line just type `ri` before a command
 
     $ ri upcase     # spits out docs for upcase same as at the link above 
 
-<br/>
+
 -objects, vars, ints, floats, strings, string templates, arrays, hashes, symbols, booleans, logic operators, ranges, constants<br/>
 [ch2-obj-var-float-hash-symbol-etc.rb](./ch2-obj-var-float-hash-symbol-etc.rb)
 
